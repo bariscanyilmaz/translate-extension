@@ -6,8 +6,34 @@
   <script src="popup.js"></script>
   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
+
 <body>
-  <div id="code"></div>
+  <div class="container">
+
+    <div class="resource box">
+      <span class="box-label">
+        Resource Text
+      </span>
+      <input class="resource-text" id="resource-text">
+    </div>
+
+    <div class="response box">
+      <span class="box-label"> Response Text</span>
+      <div id="response" class="response-text">
+      </div>
+    </div>
+
+    <div id="btn-translate" class="btn btn-translate"> Translate</div>
+
+  </div>
+  <div class="loader" id="loader">
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  
 </body>
 
 </html>
