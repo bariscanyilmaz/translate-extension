@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	try {
 
 		btnTranslate = document.getElementById('btn-translate');
-		responseBox = document.getElementById('response');
+		responseBox = document.getElementById('response-text');
 		resourceBox = document.getElementById('resource-text');
 
 		loader = document.getElementById('loader');
