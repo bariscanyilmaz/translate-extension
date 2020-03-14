@@ -1,4 +1,4 @@
-const API_KEY = '<YANDEX TRANSLATE API_KEY>';
+const API_KEY = 'trnsl.1.1.20190927T205826Z.a039dfe1a9add443.bd805df0857b89dc24e3c725c6819a124909464a';
 let btnTranslate;
 let responseBox;
 let resourceBox;
